@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My Page</title>
+
+  <script src="./htmx.min.js"></script>
+  <script src="./app.js"></script>
+</head>
+<body>
+  Hello!
+
+  <button hx-post="/clicked" hx-swap="outerHTML">
+    Click Me
+  </button>
+</body>
+</html>

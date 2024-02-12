@@ -2,3 +2,8 @@
 /.clj-kondo
 /.nrepl-port
 /.cpcache
+/.parcel-cache
+
+/node_modules
+
+/dist
